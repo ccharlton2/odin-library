@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+    <title>Objects</title>
+  </head>
+  <body>
+    <h1>Your Library</h1>
+    <div class="form-container">
+      <form action="" id="book-form" class="hidden">
+        <label for="title"
+          >Title <input type="text" name="book-title" id="title"
+        /></label>
+        <label for="author"
+          >Author <input type="text" name="book-author" id="author"
+        /></label>
+        <label for="pages"
+          >Pages <input type="text" name="book-page-count" id="pages"
+        /></label>
+        <label for="has-read"
+          >Already Read
+          <input type="checkbox" name="has-read-book" id="has-read"
+        /></label>
+
+        <button id="book-submit-button" type="submit">Add</button>
+      </form>
+      <button id="new-book-button" type="submit">+ New Book</button>
+    </div>
+    <div class="library-container"></div>
+  </body>
+</html>

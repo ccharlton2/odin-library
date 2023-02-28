@@ -1,0 +1,36 @@
+body {
+  --card-background: #f1f5f9;
+  --main-text: #1e293b;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: green;
+}
+
+.library-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width: max(50%, 200px);
+  gap: 24px;
+  margin: 24px;
+}
+
+.book-card {
+  background-color: var(--card-background);
+  color: var(--main-text);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.delete {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}

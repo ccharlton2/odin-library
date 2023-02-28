@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": ["wesbos"],
+  "rules": {
+    "quotes": ["error", "double"],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": false,
+        "endOfLine": "auto",
+        "tabWidth": 2
+      }
+    ]
+  }
+}
